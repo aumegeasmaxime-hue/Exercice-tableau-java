@@ -9,21 +9,6 @@ public class Job3 {
             if ((i == 'a') || (i == 'e') || (i == 'i') ||(i == 'o') ||(i == 'u') || (i == 'y') || (i == 'I')) {
                 System.out.print(i);
             }
-
-
-
-
-
         }
-
-
-
-
-
-
-
-
-
-
     }
 }
