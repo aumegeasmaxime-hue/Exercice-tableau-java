@@ -5,7 +5,7 @@ public class Job2 {
         String str = "Tous ces instants seront perdus dans le temps comme les larmes sous la pluie.";
 
         char[] chars = str.toCharArray();
-        System.out.println(chars.length);
+
 
         for (int i = 0; i < chars.length; i++) {
             if ((i % 2) == 0) {
