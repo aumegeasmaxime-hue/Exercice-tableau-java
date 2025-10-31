@@ -5,7 +5,6 @@ public class Job3 {
         char[] chars = str.toCharArray();
 
         for (char i : chars) {
-
             if ((i == 'a') || (i == 'e') || (i == 'i') ||(i == 'o') ||(i == 'u') || (i == 'y') || (i == 'I')) {
                 System.out.print(i);
             }
