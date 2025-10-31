@@ -5,8 +5,9 @@ public class Job7 {
         char[] char1 = str.toCharArray();
 
         for (int i = 1 ; i < char1.length; i++) {
-            System.out.print(char1[i] + "C");
+            System.out.print(char1[i]);
            }
+        System.out.print(char1[0]);
         }
     }
 
