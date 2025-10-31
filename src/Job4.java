@@ -3,6 +3,6 @@ public class Job4 {
 
         String str = "Dans l'espace, personne ne vous entend crier";
         char[] chars = str.toCharArray();
-        System.out.println(chars.length + 1);
+        System.out.println(chars.length);
     }
 }
