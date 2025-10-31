@@ -18,8 +18,6 @@ public class Job5 {
             }
         }
         System.out.println(somme);
-
         System.out.println(tchars.length - somme - espace);
-
     }
 }
