@@ -20,14 +20,10 @@ public class Job8 {
         }
         for (int w : arrey) {
             System.out.print(w + " ");
-            System.out.println();
-            System.out.println();
         }
-
+        System.out.println();
 // seconde methode + mieu bien
         int[] tab = {123, 0, 98, 171, 3, 459, 67};
-        System.out.println(" Sort the Array Element from Smallest to Largest: ");
-
         for (int i = 0; i < tab.length; i++) { // browse the tab
         int smallest = i; //define the index i as the smallest by default
             for (int j = i + 1; j < tab.length; j++) // j the index for smallest
@@ -42,15 +38,32 @@ public class Job8 {
         order = tab[i]; //put the variable into the first tab
         tab[i]=tab[smallest]; // we define as the smallest
         tab[smallest]= order; //we attribute the value of smallest to order
-            for (int x : tab) {
-        System.out.print(x+" ");
+        }
+                for (int x : tab) {
+                System.out.print( x + " ");
+        }
+        System.out.println();
+                // solution 3
+
+        int[] numbers = {84, 12, 1, 43, 5, 0, 870};
+
+        for (int i = 0; i < numbers.length - 1; i++) { //takes each number in the sequence
+            for (int j = i + 1; j < numbers.length; j++) { //compares a number with the next number
+                if (numbers[i] > numbers[j]) { //if it is bigger, swap places
+                    int valeur = numbers[i]; //variable that stores a value
+                    numbers[i] = numbers[j]; //switch places
+                    numbers[j] = valeur;     //
+                }
             }
-                    System.out.println();
+        }
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.print(numbers[i] + " ");
         }
 
-                for (int x : tab) {
-        System.out.print(x+" ");
-        }
+
+
+
+
 
     }
 }
